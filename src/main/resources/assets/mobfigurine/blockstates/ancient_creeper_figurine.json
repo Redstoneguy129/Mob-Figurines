@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "mobfigurine:block/ancient_creeper_figurine",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "mobfigurine:block/ancient_creeper_figurine"
+    },
+    "facing=south": {
+      "model": "mobfigurine:block/ancient_creeper_figurine",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mobfigurine:block/ancient_creeper_figurine",
+      "y": 270
+    }
+  }
+}

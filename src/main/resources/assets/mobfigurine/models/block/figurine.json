@@ -1,0 +1,59 @@
+{
+	"credit": "Made By Redstoneguy129",
+	"texture_size": [22, 41],
+	"elements": [
+		{
+			"from": [2.5, 0, 2.5],
+			"to": [13.5, 15, 13.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [15, 8, 9]},
+			"faces": {
+				"north": {"uv": [0, 4.29268, 8, 10.14634], "texture": "#0", "tintindex": 1},
+				"east": {"uv": [0, 10.18182, 8, 16], "texture": "#0", "tintindex": 1},
+				"south": {"uv": [8, 10.14634, 16, 16], "texture": "#0", "tintindex": 1},
+				"west": {"uv": [8, 4.29268, 16, 10.14634], "texture": "#0", "tintindex": 1},
+				"up": {"uv": [0, 0, 8, 4.36364], "texture": "#0", "tintindex": 1},
+				"down": {"uv": [8, 0, 16, 4.28333], "texture": "#0", "tintindex": 1}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [44, 40, 0],
+			"translation": [0, 1.5, 1.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [44, 40, 0],
+			"translation": [0, 1.5, 1.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [14, 111, 0],
+			"translation": [-1.75, 3.25, 1.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [14, 111, 0],
+			"translation": [-1.75, 3.25, 1.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"scale": [0.45, 0.45, 0.45]
+		},
+		"gui": {
+			"rotation": [25, 135, 0],
+			"translation": [0, 0.25, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"head": {
+			"scale": [1.35, 1.25, 1.35]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [15, 8, 9],
+			"children": [0]
+		}
+	]
+}

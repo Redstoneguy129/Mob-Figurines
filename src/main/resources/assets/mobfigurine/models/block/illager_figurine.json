@@ -1,0 +1,7 @@
+{
+  "parent": "mobfigurine:block/figurine",
+  "textures": {
+    "0": "mobfigurine:block/illager_figurine",
+    "particle": "mobfigurine:block/illager_figurine"
+  }
+}

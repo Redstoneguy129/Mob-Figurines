@@ -1,0 +1,27 @@
+modLoader = "javafml"
+loaderVersion = "[31,)"
+
+[[mods]]
+modId = "mobfigurine"
+version = "${file.jarVersion}"
+displayName = "Mob Figurines"
+credits="Thanks to Xandro for the idea! Also thanks to MysticKoko for some of the textures!"
+authors = "Redstoneguy129"
+description = '''
+Mob Figurines are a nice decoration that generate in Jungle Pyramids and Mineshafts.
+They can also drop valuable loot depending on the mob the figurine represents!
+'''
+
+[[dependencies.mobfigurine]]
+    modId="forge"
+    mandatory=true
+    versionRange="[31,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.mobfigurine]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"

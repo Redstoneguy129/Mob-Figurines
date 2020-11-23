@@ -1,0 +1,7 @@
+{
+  "parent": "mobfigurine:block/figurine",
+  "textures": {
+    "0": "mobfigurine:block/ancient_creeper_figurine",
+    "particle": "mobfigurine:block/ancient_creeper_figurine"
+  }
+}

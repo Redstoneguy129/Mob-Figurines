@@ -1,0 +1,277 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mobfigurine:enderman_figurine",
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "enchantments": [
+                  {
+                    "enchantment": "minecraft:silk_touch",
+                    "levels": {
+                      "min": 1
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{color:16383998}",
+              "conditions": [
+                {
+                  "condition": "mobfigurine:figurine_color",
+                  "color": "white"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{color:16351261}",
+              "conditions": [
+                {
+                  "condition": "mobfigurine:figurine_color",
+                  "color": "orange"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{color:13061821}",
+              "conditions": [
+                {
+                  "condition": "mobfigurine:figurine_color",
+                  "color": "magenta"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{color:3847130}",
+              "conditions": [
+                {
+                  "condition": "mobfigurine:figurine_color",
+                  "color": "light_blue"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{color:16701501}",
+              "conditions": [
+                {
+                  "condition": "mobfigurine:figurine_color",
+                  "color": "yellow"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{color:8439583}",
+              "conditions": [
+                {
+                  "condition": "mobfigurine:figurine_color",
+                  "color": "lime"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{color:15961002}",
+              "conditions": [
+                {
+                  "condition": "mobfigurine:figurine_color",
+                  "color": "pink"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{color:4673362}",
+              "conditions": [
+                {
+                  "condition": "mobfigurine:figurine_color",
+                  "color": "gray"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{color:10329495}",
+              "conditions": [
+                {
+                  "condition": "mobfigurine:figurine_color",
+                  "color": "light_gray"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{color:1481884}",
+              "conditions": [
+                {
+                  "condition": "mobfigurine:figurine_color",
+                  "color": "cyan"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{color:8991416}",
+              "conditions": [
+                {
+                  "condition": "mobfigurine:figurine_color",
+                  "color": "purple"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{color:3949738}",
+              "conditions": [
+                {
+                  "condition": "mobfigurine:figurine_color",
+                  "color": "blue"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{color:8606770}",
+              "conditions": [
+                {
+                  "condition": "mobfigurine:figurine_color",
+                  "color": "brown"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{color:6192150}",
+              "conditions": [
+                {
+                  "condition": "mobfigurine:figurine_color",
+                  "color": "green"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{color:11546150}",
+              "conditions": [
+                {
+                  "condition": "mobfigurine:figurine_color",
+                  "color": "red"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{color:1908001}",
+              "conditions": [
+                {
+                  "condition": "mobfigurine:figurine_color",
+                  "color": "black"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_eye",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:grass_block",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.65
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chorus_fruit",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.35
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:end_stone",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobblestone",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:silk_touch",
+                  "levels": {
+                    "min": 1
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
